@@ -36,10 +36,8 @@ I selected a Hugo themedemo site that was:
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
+        <div class="swiper-slide"><img srg="/images/hugo/hugo-demo-PageSpeed-mob-22mar2020.png"></div>
+        <div class="swiper-slide"><img srg="/images/hugo/hugo-demo-PageSpeed-dt-22mar2020.png"></div>
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
