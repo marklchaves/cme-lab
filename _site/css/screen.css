@@ -66,7 +66,7 @@ p, address, ul {
   background-position: center center; }
   .hero:before {
     content: "";
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0, rgba(0, 0, 0, 0) 100%);
+    /* background: linear-gradient(to bottom,rgba(0,0,0,.65) 0,rgba(0, 0, 0, 0) 100%); */
     position: absolute;
     top: 0;
     left: 0;
@@ -275,10 +275,22 @@ blockquote:before {
   display: block; }
 
 /* Custom Stuff */
+/*
 .swiper-container {
-  width: 600px;
-  height: 720px; }
+    width: 600px;
+    height: 720px;
+}
+*/
+.swiper-container, .swiper-container img {
+  width: 325px; }
 
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 600px;
+    height: 720px; }
+
+  .swiper-container img {
+    width: 600px; } }
 .staff {
   padding: 0;
   margin: 0;
