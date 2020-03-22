@@ -9,7 +9,7 @@ author_staff_member: mark
 ---
 ## What is Hugo
 
-Hugo is a SSG written in the (Go programming language)[https://golang.org/]. Go is a language designed at Google.
+Hugo is a SSG written in the [Go programming language](https://golang.org/). Go is a language designed at Google.
 
 According to [gohugo.io](https://gohugo.io/) Hugo is
 
