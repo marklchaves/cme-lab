@@ -274,6 +274,11 @@ blockquote:before {
 .cms-editor-active .editor-link {
   display: block; }
 
+/* Custom Stuff */
+.swiper-container {
+  width: 600px;
+  height: 720px; }
+
 .staff {
   padding: 0;
   margin: 0;
