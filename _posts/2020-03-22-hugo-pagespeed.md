@@ -6,6 +6,7 @@ categories:
   - performance
 image:
 author_staff_member: mark
+swiper: true;
 ---
 ## What is Hugo
 
