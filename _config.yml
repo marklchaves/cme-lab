@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
+title: creating
+url: "https://honeydew-aurora.cloudvent.net/""
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
+description: a space for creating and building stuff.
 author:
   name:
   email:
-  twitter: # twitter username without the @ symbol
+  twitter: marklchaves
 social:
-  name: Frisco Template
+  name: c a u g ht my e y e dev lab
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://github.com/marklchaves/cme-lab
 
 # -----
 # Build
@@ -105,10 +105,6 @@ defaults:
 # CloudCannon
 
 social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
   - Pinterest
   - Tumblr
   - Twitter
@@ -117,5 +113,5 @@ social_icons:
   - RSS
 
 _comments:
-  description: Text shown when sharing on social media
-  blurb: Short bio or description of this person
+  description: c a u g ht my e y e dev lab
+  blurb: creating
