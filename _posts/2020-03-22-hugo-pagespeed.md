@@ -17,11 +17,11 @@ Hugo is a SSG written in the [Go programming language](https://golang.org/). Go 
 I selected a Hugo theme demo site that was:
 
 1. Updated recently.
-2. Looked contemporary.
+2. Looks contemporary.
 3. Classified as fast.
 4. Classified as minimal.
 
-[Meghna Hugo](https://themes.gohugo.io/meghna-hugo/) is tagged as fast and minimal. It was updated on 21 March 2020. Dude, that was like yesterday. So, I ran with that.
+[Meghna Hugo](https://themes.gohugo.io/meghna-hugo/) is tagged as fast and minimal. It looks nice. It was updated on 21 March 2020. Dude, that was like yesterday. So, I ran with that.
 
 ## Results
 
