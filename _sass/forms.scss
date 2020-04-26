@@ -15,13 +15,13 @@
 }
 
 .button.alt a {
-	background: rgba(255,255,255,0);
+	background: rgba(0,0,0,0.3);
 	border: 2px solid rgba(255, 255, 255, 1);
 	color: #fff;
 }
 
 .button.alt a:hover {
-	background: #fff;
+	background: #111;
 	color: $brand-color;
 	text-shadow: none;
 }
