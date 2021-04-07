@@ -71,7 +71,7 @@ p, address, ul {
     top: 0;
     left: 0;
     right: 0;
-    height: 300px; }
+    height: 100px; }
   .hero p {
     color: #fff; }
   .hero .inner-hero {
@@ -95,8 +95,9 @@ p, address, ul {
   .bottom-cta h2 {
     margin-bottom: 12px; }
 
+/* Darken bg for hero text. mlc */
 .hero__text--bg {
-  padding: 2%;
+  padding: 3%;
   border-radius: 6px;
   background-color: rgba(0, 0, 0, 0.65); }
 
@@ -115,7 +116,10 @@ p, address, ul {
       padding: 0 20px; }
 
   .content section:nth-child(even) .flex {
-    flex-direction: row-reverse; } }
+    flex-direction: row-reverse; }
+
+  .hero:before {
+    height: 300px; } }
 .container, .text-container {
   margin: 0 auto;
   position: relative;
@@ -448,27 +452,27 @@ blockquote:before {
   padding: 30px; }
 
 .button a, input[type=submit] {
-  color: whitesmoke;
+  color: #6ba1f3;
   text-decoration: none;
-  border: 2px solid whitesmoke;
+  border: 2px solid #6ba1f3;
   transition: .2s ease-in-out;
   display: inline-block;
   padding: 16px 50px;
   background: #fff; }
 
 .button a:hover, input[type=submit]:hover {
-  background: whitesmoke;
+  background: #6ba1f3;
   color: #fff;
   cursor: pointer; }
 
 .button.alt a {
-  background: rgba(255, 255, 255, 0.2);
-  border: 2px solid black;
-  color: black; }
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  color: white; }
 
 .button.alt a:hover {
-  background: slategray;
-  color: whitesmoke;
+  background: #fff;
+  color: #6ba1f3;
   text-shadow: none; }
 
 textarea, input, button, select {
