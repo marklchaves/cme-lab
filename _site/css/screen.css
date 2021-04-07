@@ -14,7 +14,7 @@ html, body {
   padding: 0; }
 
 body {
-  font-family: 'Rubik', sans-serif; }
+  font-family: Verdana, Geneva, sans-serif; }
 
 a {
   color: #00a4ca;
@@ -53,7 +53,7 @@ p, address, ul {
   margin-bottom: 20px;
   font-weight: 300;
   line-height: 1.6em;
-  font-family: 'Lato', sans-serif; }
+  font-family: Verdana, Geneva, sans-serif; }
 
 .hero {
   color: #ffffff;
@@ -275,12 +275,6 @@ blockquote:before {
   display: block; }
 
 /* Custom Stuff */
-/*
-.swiper-container {
-    width: 600px;
-    height: 720px;
-}
-*/
 .swiper-container, .swiper-container img {
   width: 325px; }
 
@@ -449,27 +443,27 @@ blockquote:before {
   padding: 30px; }
 
 .button a, input[type=submit] {
-  color: #6ba1f3;
+  color: whitesmoke;
   text-decoration: none;
-  border: 2px solid #6ba1f3;
+  border: 2px solid whitesmoke;
   transition: .2s ease-in-out;
   display: inline-block;
   padding: 16px 50px;
   background: #fff; }
 
 .button a:hover, input[type=submit]:hover {
-  background: #6ba1f3;
+  background: whitesmoke;
   color: #fff;
   cursor: pointer; }
 
 .button.alt a {
-  background: rgba(255, 255, 255, 0);
-  border: 2px solid white;
-  color: #fff; }
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid black;
+  color: black; }
 
 .button.alt a:hover {
-  background: #fff;
-  color: #6ba1f3;
+  background: slategray;
+  color: whitesmoke;
   text-shadow: none; }
 
 textarea, input, button, select {
