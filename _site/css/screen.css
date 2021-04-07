@@ -76,7 +76,8 @@ p, address, ul {
     top: 0;
     left: 0;
     right: 0;
-    height: 100px; }
+    height: 100px;
+    /* Shrink gradient on mobile. */ }
   .hero p {
     color: #fff; }
   .hero .inner-hero {
@@ -85,7 +86,7 @@ p, address, ul {
     height: 100%; }
   .hero .hero-text-container {
     width: 85%;
-    /* 600px; */
+    /* 600px; Use % for RWD */
     text-align: left;
     word-wrap: anywhere; }
     .hero .hero-text-container h1, .hero .hero-text-container h2, .hero .hero-text-container p, .hero .hero-text-container .button {
@@ -126,7 +127,8 @@ p, address, ul {
     flex-direction: row-reverse; }
 
   .hero:before {
-    height: 300px; } }
+    height: 300px;
+    /* Grow gradient on DT. */ } }
 .container, .text-container {
   margin: 0 auto;
   position: relative;

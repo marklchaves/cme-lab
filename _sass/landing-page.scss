@@ -15,7 +15,7 @@
 		top: 0;
 		left: 0;
 		right: 0;
-		height: 100px;
+		height: 100px; /* Shrink gradient on mobile. */
 }
 
 	p {
@@ -29,7 +29,7 @@
 	}
 
 	.hero-text-container {
-		width: 85%; /* 600px; */
+		width: 85%; /* 600px; Use % for RWD */
 		text-align: left;
 		word-wrap: anywhere;
 
@@ -81,6 +81,6 @@
 	}
 
 	.hero:before {
-		height: 300px;
+		height: 300px; /* Grow gradient on DT. */
 	}
 }
