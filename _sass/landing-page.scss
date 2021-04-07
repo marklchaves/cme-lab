@@ -29,8 +29,9 @@
 	}
 
 	.hero-text-container {
-		width: 600px;
+		width: 85%; /* 600px; */
 		text-align: left;
+		word-wrap: anywhere;
 
 		h1, h2, p, .button {
 			text-shadow: 1px 1px 1px rgba(0,0,0,.8);
